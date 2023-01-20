@@ -119,6 +119,11 @@ nav {
                 padding: 5px;
 
                 color: #303030;
+
+                text-transform: uppercase;
+
+                font-size: 11px;
+                font-weight: 700;
             }
         }
 
