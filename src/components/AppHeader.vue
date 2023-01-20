@@ -83,8 +83,11 @@ export default {
 
 <style lang="scss" scoped>
 nav {
-    height: 100px;
+    height: 110px;
+    width: 1400;
     display: flex;
+
+    background-color: #ffffff;
 }
 
 .nav-left {
@@ -92,6 +95,11 @@ nav {
 
     display: flex;
     align-items: center;
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
 .nav-right {
@@ -108,10 +116,9 @@ nav {
 
             a {
                 display: inline-block;
-
                 padding: 5px;
 
-
+                color: #303030;
             }
         }
 
