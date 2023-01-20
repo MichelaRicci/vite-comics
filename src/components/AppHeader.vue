@@ -123,5 +123,10 @@ nav {
         }
 
     }
+
+    .active {
+        color: #0082F9;
+        border-bottom: 3px solid #0082F9;
+    }
 }
 </style>

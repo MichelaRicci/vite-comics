@@ -38,6 +38,8 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  font-family: sans-serif;
 }
 
 /* Generics */
@@ -45,5 +47,14 @@ export default {
 .container {
   width: 1200px;
   margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  display: inline-block;
+  color: #5d5d5d;
 }
 </style>
