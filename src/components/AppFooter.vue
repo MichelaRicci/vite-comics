@@ -45,6 +45,9 @@ export default {
 footer {
     height: 110px;
     background-color: #303030;
+
+    position: relative;
+    z-index: 1;
 }
 
 .row {

@@ -12,6 +12,7 @@ export default {
 
 <template>
 
+
     <div class="content">
         <div class="container">
             <h2> -- Content goes here -- </h2>
@@ -88,6 +89,9 @@ export default {
 .content {
     height: 110px;
     background-color: black;
+
+    position: relative;
+    z-index: 1;
 }
 
 h2 {
@@ -101,7 +105,7 @@ h2 {
 }
 
 img {
-    height: 300px;
+    height: 400px;
 }
 
 ul {
