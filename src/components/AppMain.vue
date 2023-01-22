@@ -100,28 +100,8 @@ h2 {
     height: 300px;
 }
 
-.row {
-    display: flex;
-}
-
-.col {
-    width: 50%;
-    display: flex;
-
-    margin-left: 15px;
-
-    div {
-        margin-top: 10px;
-        margin-right: 10px;
-    }
-}
-
 img {
     height: 300px;
-}
-
-h4 {
-    text-transform: uppercase;
 }
 
 ul {

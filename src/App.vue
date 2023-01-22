@@ -31,7 +31,7 @@ export default {
 
 </template>
 
-<style>
+<style lang="scss">
 /* Reset */
 
 * {
@@ -56,5 +56,31 @@ li {
 a {
   display: inline-block;
   color: #5d5d5d;
+}
+
+h4,
+h3 {
+  text-transform: uppercase;
+}
+
+
+/* Row & Cols */
+
+.row {
+  display: flex;
+  align-items: center;
+
+
+
+}
+
+.col {
+  width: 50%;
+  display: flex;
+
+  align-self: center;
+
+  margin-left: 15px;
+
 }
 </style>
