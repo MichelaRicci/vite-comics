@@ -1,13 +1,15 @@
-<script>
+<script lang="js">
+
+import AppList from './AppList.vue';
+
 
 export default {
     name: 'AppMain',
-    data() {
-        return {
-        }
+
+    components: {
+        AppList,
     }
 }
-
 </script>
 
 <template>
@@ -15,7 +17,14 @@ export default {
 
     <div class="content">
         <div class="container">
-            <h2> -- Content goes here -- </h2>
+            <div class="gallery-container">
+
+                <AppList />
+
+
+
+
+            </div>
         </div>
     </div>
 
@@ -87,7 +96,6 @@ export default {
 
 <style lang="scss" scoped>
 .content {
-    height: 110px;
     background-color: black;
 
     position: relative;
